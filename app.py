@@ -21,7 +21,7 @@ class Test(MethodView):
 app.add_url_rule('/testing', view_func=Test.as_view('testing'))
 
 
-# if __name__ == "__main__":
-#     app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
 
 #My Name's Matthew Potter
